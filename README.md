@@ -1,7 +1,7 @@
 # A third-party download of a BT panel
 # 宝塔面板aaPane
 A  server from a Chinese team.
-# BT panel Chinese website http://www.bt.cn
+# BT panel(aaPane) Chinese website http://www.bt.cn
 This page has two languages, one is Chinese and the other is English.（Chinese to English service provided by Google Translate.Thanks for Google Translate）
 If you have some problems,you can try to visit our website.But because most of our servers are in China,so you may not be able to access our website in countries other than China.
 So we uploaded the source code to Github.
