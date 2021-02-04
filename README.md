@@ -18,4 +18,4 @@ First you should make sure you are using Ubuntu or Raspberry Pi system.Next ente
 目前，我们暂时仅提供Ubuntu（Raspberry Pi）的第三方BT面板安装和下载服务。
 # 如何安装BT面板？
 首先，请确保您使用的是Ubuntu或Raspberry Pi系统。然后输入“ sudo wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh” ,然后等待下载结束,最后输入“ bash install.sh”。
-最后更新于2021/02/04 10:00
+此最后更新于2021/02/04 10:00 v1.0
