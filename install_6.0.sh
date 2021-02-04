@@ -130,7 +130,7 @@ get_node_url(){
 	
 	echo '---------------------------------------------';
 	echo "Selected download node...";
-	nodes=(http://bt.aocs.xyz:8011);
+	nodes=(http://dg2.bt.cn http://dg1.bt.cn http://180.101.160.68:5880 http://103.224.251.67 http://45.76.53.20 http://120.206.184.160 http://113.107.111.78 http://128.1.164.196);
 	tmp_file1=/dev/shm/net_test1.pl
 	tmp_file2=/dev/shm/net_test2.pl
 	[ -f "${tmp_file1}" ] && rm -f ${tmp_file1}
@@ -167,7 +167,7 @@ get_node_url(){
 	if [ -z "$NODE_URL" ];then
 		NODE_URL=$(cat $tmp_file2|sort -g -t " " -k 1|head -n 1|awk '{print $2}')
 		if [ -z "$NODE_URL" ];then
-			NODE_URL='http://bt.aocs.xyz:8011';
+			NODE_URL='http://download.bt.cn';
 		fi
 	fi
 	rm -f $tmp_file1
@@ -730,18 +730,22 @@ Install_Main(){
 
 echo "
 +----------------------------------------------------------------------
-| 宝塔面板 FOR 式智云计算定制版
+| 宝塔面板  （式智云计算定制安装版-树莓派&Ubuntu）
 +----------------------------------------------------------------------
-| 式智云计算定制  2020020180 
+| 式智云计算定制安装版  2020020180  
 +----------------------------------------------------------------------
 | 当前版本：上方前四位为年接下来两位月，然后两位为季度，最后是版本号
++----------------------------------------------------------------------
+| www.bt.cn 广东堡塔安全技术有限公司 ©版权所有
++----------------------------------------------------------------------
+| 此服务器外网ip：${getIpAddress}
 +----------------------------------------------------------------------
 | The WebPanel URL will be http://SERVER_IP:8888 when installed.
 +----------------------------------------------------------------------
 "
 while [ "$go" != 'y' ] && [ "$go" != 'n' ]
 do
-	read -p "Do you want to install Bt-Panel to the $setup_path directory now?(y/n): " go;
+	read -p "确定安装此版本的宝塔面板吗?(y/n): " go;
 done
 
 if [ "$go" == 'n' ];then
@@ -753,7 +757,6 @@ echo > /www/server/panel/data/bind.pl
 echo -e "=================================================================="
 echo -e "\033[32mCongratulations! Installed successfully!\033[0m"
 echo -e "=================================================================="
-echo  "外网面板地址: http://${getIpAddress}:${panelPort}${auth_path}"
 echo  "内网面板地址: http://${LOCAL_IP}:${panelPort}${auth_path}"
 echo -e "用户名: $username"
 echo -e "密  码: $password"
@@ -764,6 +767,5 @@ echo -e "=================================================================="
 
 endTime=`date +%s`
 ((outTime=($endTime-$startTime)/60))
-echo -e "安装用时:\033[32m $outTime \033[0mMinute!"
-
+echo -e "Time consumed:\033[32m $outTime \033[0mMinute!"
 
