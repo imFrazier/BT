@@ -18,5 +18,5 @@ First you should make sure you are using Ubuntu or Raspberry Pi system.Next ente
 我们的网站是 http://www.aocs.xyz ，如果您想购买云服务器，则可以访问http://damo.idc.emcnet.cn 。我们将一对一地为您提供专门的客服，以帮助您解决问题。
 目前，我们暂时仅提供Ubuntu（Raspberry Pi）的第三方BT面板安装和下载服务。
 # 如何安装BT面板？
-首先，请确保您使用的是Ubuntu或Raspberry Pi系统。然后输入“ sudo wget -O install.sh https://github.com/Goodby2021/BT.git” ,然后等待下载结束,最后输入“ bash install.sh”。
+首先，请确保您使用的是Ubuntu或Raspberry Pi系统。然后输入“ sudo wget -O install.sh https://github.com/Goodby2021/BT.git” ,然后等待下载结束,最后输入“sudo bash install.sh”。
 此最后更新于2021/02/04 10:00 v1.0
