@@ -6,7 +6,7 @@ If you have some problems,you can try to visit our website.But because most of o
 So we uploaded the source code to Github.
 Our website is http://www.aocs.xyz if you wants to buy cloud servers you can visit the http://damo.idc.emcnet.cn. You will have a dedicated customer service one-on-one to help you solve the problem.
 For the time being, we only provide third-party BT panel installation and download services for Ubuntu (Raspberry Pi).
-How to install the BT panel?
+# How to install the BT panel?
 First you should make sure you are using Ubuntu or Raspberry Pi system.Next enter “sudo wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh" and waiting for it download end.At last enter "bash install.sh" .
 # BT面板的第三方下载服务
 来自中国团队的服务。
