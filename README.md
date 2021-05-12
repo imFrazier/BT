@@ -5,7 +5,7 @@ A  server from a Chinese team.
 This page has two languages, one is Chinese and the other is English.（Chinese to English service provided by Google Translate.Thanks for Google Translate）
 If you have some problems,you can try to visit our website.But because most of our servers are in China,so you may not be able to access our website in countries other than China.
 So we uploaded the source code to Github.
-Our website is http://www.aocs.xyz if you wants to buy cloud servers you can visit the http://damo.idc.emcnet.cn. You will have a dedicated customer service one-on-one to help you solve the problem.
+Our website is http://www.aocs.xyz if you wants to buy cloud servers you can visit the http://cloud.aocs.xyz：8011. You will have a dedicated customer service one-on-one to help you solve the problem.
 For the time being, we only provide third-party BT panel installation and download services for Ubuntu (Raspberry Pi).
 # How to install the BT panel?
 First you should make sure you are using Ubuntu or Raspberry Pi system.Next enter “sudo wget -O install.sh https://github.com/Goodby2021/BT.git" and waiting for it download end，enter "cd /BTm ".At last enter "sudo bash install.sh" .
@@ -19,4 +19,4 @@ First you should make sure you are using Ubuntu or Raspberry Pi system.Next ente
 目前，我们暂时仅提供Ubuntu（Raspberry Pi）的第三方BT面板安装和下载服务。
 # 如何安装BT面板？
 首先，请确保您使用的是Ubuntu或Raspberry Pi系统。然后输入“ sudo wget -O install.sh https://github.com/Goodby2021/BT.git” ,然后等待下载结束,输入“ cd /BT ”,最后输入“sudo bash install.sh”。
-此最后更新于2021/02/04 10:00 v1.0
+此最后更新于2021/05/11 8:45 p.m . v1.1
